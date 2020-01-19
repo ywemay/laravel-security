@@ -4,6 +4,8 @@ And API security server based on Laravel framework.
 
 # Installation
 
+To be able to run the application composer and docker/docker-compose are required.
+
 ```bash
     # Clone the project
     git clone https://github.com/ywemay/laravel-security.git
@@ -11,6 +13,9 @@ And API security server based on Laravel framework.
     # Navigate into project directory
     cd laravel-security
 
+    # Install dependencies
+    composer install
+    
     # Build and run docker image
     # --build option is to be included for the first run only
     docker-compose up --build
