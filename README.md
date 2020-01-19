@@ -1,11 +1,20 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# YiwuEmay/Laravel Security
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+And API security server based on Laravel framework.
+
+# Installation
+
+```bash
+    # Clone the project
+    git clone https://github.com/ywemay/laravel-security.git
+
+    # Navigate into project directory
+    cd laravel-security
+
+    # Build and run docker image
+    # --build option is to be included for the first run only
+    docker-compose up --build
+```
 
 ## About Laravel
 
